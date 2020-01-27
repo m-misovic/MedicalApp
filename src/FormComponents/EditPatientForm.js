@@ -110,7 +110,7 @@ class AddPatientForm extends Component {
 		return (
 			<React.Fragment>
 				<form ref={this.form} className='form-container' onSubmit={this.handleFormSubmit}>
-					<div className='naslov'>Izmeni podatke o pacijentu:</div>
+					<div className='naslov'>Izmeni podatke pacijenta:</div>
 					<Input
 						type={'text'}
 						title={'Ime'}
